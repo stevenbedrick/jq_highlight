@@ -35,6 +35,8 @@
 *           JQ_Highlight doesn't get the mouseup even and therefore doesn't catch the selection.
 *           Anybody who wants to help, etc.
 *
+*   Contains a small amount of code from TinyMCE:
+*   Copyright © 2004-2008, Moxiecode Systems AB, All rights reserved.
 */
 
 jQuery.fn.enable_select = function(options) {

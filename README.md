@@ -28,3 +28,7 @@ KNOWN LIMITATIONS:
 - The plugin's behavior is undefined when selections overlap. Anybody who feels like dealing with this, please feel free. Different user agents seem to handle this differently.
 - If an overlapping selection ends in the middle of an existing selection (rather than completely enclosing an existing selection), an exception occurs. If this happens, the plugin passes a flag to that effect to the callback function. Again, different user agents seem to handle this situation differently. See previous note about external help being welcome.
 - If the user's selection ends outside of the element that `enable_select()` is called on, JQ_Highlight doesn't get the `mouseup` event and therefore doesn't catch the selection. Anybody who wants to help, etc.
+
+Acknowledgments:
+----------------
+This project includes some code taken from [QuirksMode.org](http://www.quirksmode.org/) as well as from [TinyMCE](http://tinymce.moxiecode.com).
